@@ -141,6 +141,10 @@ img {
   .header-logo {
     margin-right: 177px;
   }
+  .header-logo-icon {
+    width: 106px;
+    height: 45px;
+  }
 
   .header-nav-list {
     display: flex;
