@@ -12,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles-header.css" />
     <link rel="stylesheet" href="./css/styles-footer.css" />
     <link rel="stylesheet" href="./css/styles-footer-media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,86 +24,69 @@
   </head>
 
   <body>
-    <footer class="footer">
-      <div class="container footer-container">
-        <div class="footer-wrap">
-          <div class="footer-logo">
-            <a class="footer-logo-link" href="./index.html">
-              <svg class="footer-logo-icon" width="273" height="102">
-                <use href="./images/footer-icons.svg#icon-logo"></use>
-              </svg>
-            </a>
-          </div>
-          <nav class="footer-nav">
-            <ul class="footer-nav-list">
-              <li class="footer-nav-item">
-                <a class="footer-nav-link" href="#about">Про нас</a>
-              </li>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="header-logo" href="./index.html">
+            <svg class="header-logo-icon" width="84" height="36">
+              <use href="./images/footer-icons.svg#icon-logo"></use>
+            </svg>
+          </a>
 
-              <li class="footer-nav-item">
-                <a class="footer-nav-link" href="#advantages">Переваги</a>
-              </li>
-
-              <li class="footer-nav-item">
-                <a class="footer-nav-link" href="#assortment">Асортимент</a>
-              </li>
-
-              <li class="footer-nav-item">
-                <a class="footer-nav-link" href="#gallery">Галерея</a>
-              </li>
-              <li class="footer-nav-item">
-                <a class="footer-nav-link" href="#feedbacks">Відгуки</a>
-              </li>
-
-              <li class="footer-nav-item">
-                <a class="footer-nav-link" href="#support">Контакти</a>
-              </li>
-            </ul>
-          </nav>
-          <ul class="footer-list-social">
-            <li class="footer-icon-item">
-              <a href="https://www.instagram.com/" class="footer-icon-link">
-                <svg class="footer-icon" width="32" height="32">
-                  <use href="./images/footer-icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link header-text" href="#about">Про нас</a>
             </li>
 
-            <li class="footer-icon-item">
-              <a href="https://www.linkedin.com/" class="footer-icon-link">
-                <svg class="footer-icon" width="32" height="32">
-                  <use href="./images/footer-icons.svg#icon-linkedin"></use>
-                </svg>
+            <li class="header-nav-item">
+              <a class="header-nav-link header-text" href="#advantages"
+                >Переваги</a
+              >
+            </li>
+
+            <li class="header-nav-item">
+              <a class="header-nav-link header-text" href="#assortment"
+                >Асортимент</a
+              >
+            </li>
+
+            <li class="header-nav-item">
+              <a class="header-nav-link header-text" href="#gallery">Галерея</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link header-text" href="#feedbacks"
+                >Відгуки</a
+              >
+            </li>
+
+            <li class="header-nav-item">
+              <a class="header-nav-link header-text" href="#support"
+                >Контакти</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="header-address-list">
+            <li class="header-address-item">
+              <a class="header-address-link" href="tel:+380999091122">
+                +38 (099) 909 11 22
               </a>
             </li>
-            <li class="footer-icon-item">
-              <a href="https://www.youtube.com/" class="footer-icon-link">
-                <svg class="footer-icon" width="32" height="32">
-                  <use href="./images/footer-icons.svg#icon-youtube"></use>
-                </svg>
+            <li class="header-address-item">
+              <a class="header-address-link" href="mailto:hello@ecotote.com">
+                hello@ecotote.com
               </a>
             </li>
           </ul>
-        </div>
+        </address>
 
-        <div class="footer-wrap-adress">
-          <address class="footer-address">
-            <ul class="footer-address-list">
-              <li class="footer-address-item">
-                <a class="footer-address-link" href="tel:+380999091122">
-                  +38 (099) 909 11 22
-                </a>
-              </li>
-              <li class="footer-address-item">
-                <a class="footer-address-link" href="mailto:hello@ecotote.com">
-                  hello@ecotote.com
-                </a>
-              </li>
-            </ul>
-          </address>
-          <p class="text-footer">&copy; 2025 EcoTote. Всі права захищені.</p>
-        </div>
+        <button class="burger-btn" type="button" data-menu-open>
+          <svg class="burger-icon" width="32" height="32">
+            <use href="./images/header-icons.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
-    </footer>
+    </header>
   </body>
 </html>
